@@ -29,4 +29,12 @@
         android:onClick="lanzar2ventana"
         android:text="Ir a ventana Numero 2" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_centerVertical="true"
+        android:text="Tercerra ventana solo por codigo" />
+
 </RelativeLayout>
