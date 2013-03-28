@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 	
 	public void lanzar2ventana(View v) {
 		Intent inten = new Intent(this, ventana2.class);
-		inten.putExtra("usuario", "Ramon");
+		inten.putExtra("usuario", "Ramon");//pasamos el par de datos
 		inten.putExtra("edad", 25);
 		startActivity(inten);
 	}
