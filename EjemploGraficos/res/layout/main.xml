@@ -3,13 +3,14 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    android:onClick="Ejemplo5"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".EjemploGraficosActivity" 
-    android:background="@drawable/degradado">
+    tools:context=".EjemploGraficosActivity" >
 
     <Button
         android:id="@+id/button1"
@@ -40,5 +41,11 @@
         android:layout_height="wrap_content"
         android:onClick="Ejemplo4"
         android:text="Dibujar una imagen" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo 5" />
 
 </LinearLayout>

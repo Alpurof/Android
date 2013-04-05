@@ -26,6 +26,7 @@
         <activity android:label="Ejemplo2" android:name=".Ejemplo2"></activity>
         <activity android:label="Ejemplo3" android:name=".Ejemplo3"></activity>
         <activity android:label="Ejemplo4" android:name=".Ejemplo4"></activity>
+        <activity android:label="Ejemplo5" android:name=".Ejemplo5"></activity>
     </application>
 
 </manifest>

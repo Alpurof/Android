@@ -47,4 +47,8 @@ public class EjemploGraficosActivity extends Activity {
 		Intent intent = new Intent(this, Ejemplo4.class);
 		startActivity(intent);
 	}
+	public void Ejemplo5(View view) {
+		Intent intent = new Intent(this, Ejemplo5.class);
+		startActivity(intent);
+	}
 }
