@@ -29,6 +29,8 @@ public class Ejemplo4 extends Activity{
 			Resources res = context.getResources();
 			miImagen = res.getDrawable(R.drawable.mi_imagen);
 			miImagen.setBounds(30, 30, 200, 200);
+			
+			setBackgroundResource(R.drawable.degradado);//degradado por codigo
 		}
 
 		@Override

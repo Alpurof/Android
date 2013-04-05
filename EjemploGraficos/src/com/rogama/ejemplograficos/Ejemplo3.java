@@ -1,7 +1,5 @@
 package com.rogama.ejemplograficos;
 
-import com.rogama.ejemplograficos.Ejemplo2.EjemploView2;
-
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Canvas;
