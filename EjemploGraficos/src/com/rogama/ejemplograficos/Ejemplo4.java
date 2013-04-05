@@ -1,7 +1,5 @@
 package com.rogama.ejemplograficos;
 
-import com.rogama.ejemplograficos.Ejemplo2.EjemploView2;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
@@ -31,7 +29,6 @@ public class Ejemplo4 extends Activity{
 			Resources res = context.getResources();
 			miImagen = res.getDrawable(R.drawable.mi_imagen);
 			miImagen.setBounds(30, 30, 200, 200);
-			
 		}
 
 		@Override
